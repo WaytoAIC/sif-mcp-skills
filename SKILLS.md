@@ -20,14 +20,14 @@
 
 ## 2. 先安装，再谈调用
 
-如果这些 skill 还没挂到 `~/.codex/skills`，先做软链接：
+如果这些 skill 还没挂到 `~/.codex/skills`，在本仓库根目录先做软链接：
 
 ```bash
 mkdir -p ~/.codex/skills
-ln -s /Users/wesleyzane/Desktop/Codex/Sif/skills/sif-mcp-router ~/.codex/skills/sif-mcp-router
-ln -s /Users/wesleyzane/Desktop/Codex/Sif/skills/sif-traffic-diagnosis ~/.codex/skills/sif-traffic-diagnosis
-ln -s /Users/wesleyzane/Desktop/Codex/Sif/skills/sif-keyword-research ~/.codex/skills/sif-keyword-research
-ln -s /Users/wesleyzane/Desktop/Codex/Sif/skills/sif-ad-analysis ~/.codex/skills/sif-ad-analysis
+ln -s "$(pwd)/skills/sif-mcp-router" ~/.codex/skills/sif-mcp-router
+ln -s "$(pwd)/skills/sif-traffic-diagnosis" ~/.codex/skills/sif-traffic-diagnosis
+ln -s "$(pwd)/skills/sif-keyword-research" ~/.codex/skills/sif-keyword-research
+ln -s "$(pwd)/skills/sif-ad-analysis" ~/.codex/skills/sif-ad-analysis
 ```
 
 重开 Codex 会话后再测试触发。

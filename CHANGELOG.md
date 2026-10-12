@@ -8,6 +8,13 @@ The format is based on Keep a Changelog and this project follows Semantic Versio
 
 - No unreleased changes yet.
 
+## [1.0.1] - 2026-10-12
+
+### Changed
+
+- README and SKILLS symlink examples now run from the repository root instead of using a local absolute path.
+- The installer default and the README install command now pin `--ref v1.0.1`.
+
 ## [1.0.0] - 2026-04-16
 
 ### Added

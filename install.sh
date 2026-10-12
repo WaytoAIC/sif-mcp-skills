@@ -15,7 +15,7 @@ Usage:
 Examples:
   install.sh --target codex
   install.sh --target openclaw
-  install.sh --ref v1.0.0
+  install.sh --ref v1.0.1
   install.sh --dest "$HOME/.codex/skills"
 
 Options:
